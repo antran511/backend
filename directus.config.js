@@ -26,6 +26,6 @@ module.exports = function (env) {
     CORS_ALLOWED_HEADERS: "Set-Cookie,Content-Type,Authorization",
 
     REFRESH_TOKEN_COOKIE_DOMAIN:
-      process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "localhost",
+      process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "0.0.0.0:3000",
   };
 };
