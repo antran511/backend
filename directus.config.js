@@ -23,6 +23,7 @@ module.exports = function (env) {
 
     CORS_ENABLED: true,
     CORS_ORIGIN: true,
+    CORS_ALLOWED_HEADERS: "Set-Cookie,Content-Type,Authorization",
 
     REFRESH_TOKEN_COOKIE_DOMAIN:
       process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "localhost",
