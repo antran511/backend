@@ -26,7 +26,7 @@ module.exports = function (env) {
     CORS_ALLOWED_HEADERS: "Set-Cookie,Content-Type,Authorization",
 
     REFRESH_TOKEN_COOKIE_DOMAIN:
-      process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "localhost",
+      process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "up.railway.app",
     REFRESH_TOKEN_COOKIE_SECURE: "true",
     REFRESH_TOKEN_COOKIE_SAME_SITE: "None",
   };
