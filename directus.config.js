@@ -23,5 +23,8 @@ module.exports = function (env) {
 
     CORS_ENABLED: true,
     CORS_ORIGIN: true,
+
+    REFRESH_TOKEN_COOKIE_DOMAIN:
+      process.env.REFRESH_TOKEN_COOKIE_DOMAIN || "localhost",
   };
 };
